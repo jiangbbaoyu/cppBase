@@ -18,6 +18,7 @@ using namespace std;
 struct B{
     int i;
     int j;
+    int k;
 };
 struct A{
     int x;
