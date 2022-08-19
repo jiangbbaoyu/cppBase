@@ -72,21 +72,18 @@ void test4(){
         （即：int temp=b, int* b2=(int *）&temp)
      */
     const int b=20; // c++中为真正的常量，c中为伪常量
-    int* b2= (int *)&b;
+    int* b2= (int*)&b;
     *b2=200;
-    cout<<b<<endl;
-    cout<<*b2<<endl;  // b=10,b2=100 ,b also is 200 in C
+    cout<<b<<endl; // 20
+    cout<<*(&b)<<endl; // 200
+    cout<<*b2<<endl;  // 200
     int arr[b];
 }
 
 void test5(){
-    const int a=10;
-    int* p=(int*)&a; // /会分配临时内存
-
-
     int aa=10;
     const int b=aa;//会分配内存
-    int* p2=(int *)&b;
+    int* p2=(int*)&b;
     *p2=100;
     cout<<b<<endl; //100
 
@@ -95,8 +92,8 @@ void test5(){
 
 void test6(){
 //    extern const int e1;  // 无法从外部文件找到e1这个变量
-    extern const int e2;  //可以从外部文件找到e1这个变量
-    cout<<e2<<endl;
+//    extern const int e2;  //可以从外部文件找到e1这个变量
+//    cout<<e2<<endl;
 }
 
 #include <string>
@@ -120,7 +117,7 @@ int main(){
 //    test();
 //    test2();
 //    test3();
-//    test4();
+    test4();
 //    test5();
 //    test6();
 //    test7();

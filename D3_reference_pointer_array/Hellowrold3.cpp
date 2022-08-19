@@ -30,12 +30,13 @@ using namespace std;
 
 void test1(){
     int a=10;
-    int& b=a; // alias 引用的本质在C+ +内部实现是一一个指针常量, (same to : int* const b=&a)
+    int &b = a; // alias 引用的本质在C+ +内部实现是一一个指针常量, (same to : int* const b=&a)
     b=100;  // same to: (*b)=100
     cout<<a<<endl;
     cout<<b<<endl;
 
     int aa=1100;
+    &b = aa;
     int* const pp=&a;
 //    pp=&aa; // assignment of read-only variable ‘pp’
 //    指针常量 : 指针所指向的内存地址不可修改。但p所指向内存地址所对应的值是可以修改的 ( p指向的地址不能变)
@@ -283,7 +284,7 @@ void test14(){
 
 
 int main(){
-//    test1();
+    test1();
 //    test02();
 //    test021();
 //    test03();
@@ -296,7 +297,7 @@ int main(){
 //    test10();
 //    test11();
 //    test12();
-    test14();
+//    test14();
 
     return EXIT_SUCCESS;
 }

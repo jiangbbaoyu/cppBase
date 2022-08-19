@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.14)
 project(cppBasic)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
-#add_executable(cppBasic D1_namespace/HelloWord1.cpp D1_namespace/game1.h D1_namespace/game1.cpp D1_namespace/game2.h D1_namespace/game2.cpp D2_C++_features_const_extern/HelloWorld2.cpp)
+#add_executable(cppBasic D1_namespace/HelloWord1.cpp D1_namespace/game1.h D1_namespace/game1.cpp D1_namespace/game2.h D1_namespace/game2.cpp)
 #add_executable(cppBasic D2_C++_features_const_extern/HelloWorld2.cpp D2_C++_features_const_extern/extern_test.cpp)
 #add_executable(cppBasic D3_reference_pointer_array/Hellowrold3.cpp )
 #add_executable(cppBasic D4_function_inline/HelloWorld4.cpp )
@@ -17,3 +17,22 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(cppBasic D12_c++_new_features_auto_decltype_typename_typedef_using_templateDefaultParams/HelloWorld12.cpp)
 #add_executable(cppBasic D13_c++_new_features_sharedPtr_unique_ptr_moveConstructor_perfectForward/HelloWorld13.cpp)
 #add_executable(cppBasic D14_c++_new_features_/HelloWorld14.cpp)
+
+
+
+#add_executable(cppBasic D000_cpp_primer5e/CH01_bookstore/bookstoremain.cpp)
+#add_executable(cppBasic D000_cpp_primer5e/CH02_data_type/datatypemain.cpp)
+#add_executable(cppBasic D000_cpp_primer5e/CH03_string_vector_iterator_arrary/string_vector_arrary_iterator_test.cpp)
+#add_executable(cppBasic D000_cpp_primer5e/CH04_type_convert/type_convert_test.cpp)
+#add_executable(cppBasic D000_cpp_primer5e/CH06_function/function_test.cpp)
+#add_executable(cppBasic
+#        D000_cpp_primer5e/CH07_class/class_main.cpp
+#        D000_cpp_primer5e/CH07_class/window_mgr.h
+#        D000_cpp_primer5e/CH07_class/window_mgr.cpp
+#        D000_cpp_primer5e/CH07_class/screen.cpp
+#
+#        )
+add_executable(cppBasic
+        D000_cpp_primer5e/CH09_ordered_container/ordered_container_main.cpp
+
+        )

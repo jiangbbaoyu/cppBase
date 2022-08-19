@@ -89,6 +89,6 @@ int main(){
     ns1::goAtk();
     ns2::goAtk();
 
-    return EXIT_SUCCESS;
+    return 0;
 }
 

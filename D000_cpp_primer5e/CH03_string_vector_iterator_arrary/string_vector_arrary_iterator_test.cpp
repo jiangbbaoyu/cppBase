@@ -9,7 +9,7 @@ void test1(){
     std::string str("abc");
     auto len = str.size();
 
-    std::cout<< typeid(len).name();
+    std::cout<< typeid(len).name()<<std::endl;
 
 
     int n=-1;
@@ -176,7 +176,6 @@ void test10(){
     }
 
 
-
 //    for(auto &row:arr){
 //        for(auto col:row){
 //            std::cout<<col<<std::endl;
@@ -219,17 +218,39 @@ void test11(){
 
 }
 
+void test12() {
 
-int main(){
-//    test1();
-//    test3();
-//    test4();
+    std::string str("abc");
+    auto len = str.size();
 
-//    test5();
-//    test6();
-//    test7();
-//    test8();
-//    test9();
-//    test10();
-    test11();
+    // 打印各个字符的地址
+    for (decltype(str.size()) i = 0; i < str.size(); i++) {
+        std::cout << static_cast<void *>(&str[i]) << std::endl;
+    }
+
+    for (char &c :str) { // 没有对str中的字符进行拷贝
+        std::cout << static_cast<void *>(&c) << std::endl;
+    }
+
+    for (char c :str) {
+        // 有对str中的字符进行拷贝
+        // 申请一个临时的字符，每次将str中的一个字符拷贝给该临时字符，该循环中c的地址是该临时变量的地址
+        std::cout << static_cast<void *>(&c) << std::endl;
+    }
+
 }
+
+
+//int main(){
+////    test1();
+////    test3();
+////    test4();
+//
+////    test5();
+////    test6();
+////    test7();
+////    test8();
+////    test9();
+////    test10();
+////    test11();
+//}
