@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o"
+  "CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o"
   "cppBasic.pdb"
   "cppBasic"
 )

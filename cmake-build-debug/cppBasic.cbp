@@ -37,7 +37,55 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="cppBasic">
+				<Option output="/Users/aaab/Documents/c++/cppBase/cmake-build-debug/cppBasic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aaab/Documents/c++/cppBase/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppBasic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppBasic/fast">
+				<Option output="/Users/aaab/Documents/c++/cppBase/cmake-build-debug/cppBasic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aaab/Documents/c++/cppBase/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppBasic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aaab/Documents/c++/cppBase/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Users/aaab/Documents/c++/cppBase/D000_cpp_primer5e/CH16_template/blob.h">
+			<Option target="cppBasic"/>
+		</Unit>
+		<Unit filename="/Users/aaab/Documents/c++/cppBase/D000_cpp_primer5e/CH16_template/template_main.cpp">
+			<Option target="cppBasic"/>
+		</Unit>
 		<Unit filename="/Users/aaab/Documents/c++/cppBase/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

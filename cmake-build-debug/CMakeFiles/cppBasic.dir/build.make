@@ -57,27 +57,27 @@ include CMakeFiles/cppBasic.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cppBasic.dir/flags.make
 
-CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o: CMakeFiles/cppBasic.dir/flags.make
-CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o: ../D3_reference_pointer_array/Hellowrold3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aaab/Documents/c++/cppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o -c /Users/aaab/Documents/c++/cppBase/D3_reference_pointer_array/Hellowrold3.cpp
+CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o: CMakeFiles/cppBasic.dir/flags.make
+CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o: ../D000_cpp_primer5e/CH16_template/template_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aaab/Documents/c++/cppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o -c /Users/aaab/Documents/c++/cppBase/D000_cpp_primer5e/CH16_template/template_main.cpp
 
-CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aaab/Documents/c++/cppBase/D3_reference_pointer_array/Hellowrold3.cpp > CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.i
+CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aaab/Documents/c++/cppBase/D000_cpp_primer5e/CH16_template/template_main.cpp > CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.i
 
-CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aaab/Documents/c++/cppBase/D3_reference_pointer_array/Hellowrold3.cpp -o CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.s
+CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aaab/Documents/c++/cppBase/D000_cpp_primer5e/CH16_template/template_main.cpp -o CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.s
 
 # Object files for target cppBasic
 cppBasic_OBJECTS = \
-"CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o"
+"CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o"
 
 # External object files for target cppBasic
 cppBasic_EXTERNAL_OBJECTS =
 
-cppBasic: CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o
+cppBasic: CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o
 cppBasic: CMakeFiles/cppBasic.dir/build.make
 cppBasic: CMakeFiles/cppBasic.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aaab/Documents/c++/cppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cppBasic"

@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cppBasic.dir/D3_reference_pointer_array/Hellowrold3.cpp.o  -o cppBasic 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o  -o cppBasic 

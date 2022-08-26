@@ -110,6 +110,46 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named cppBasic
+
+# Build rule for target.
+cppBasic: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cppBasic
+.PHONY : cppBasic
+
+# fast build rule for target.
+cppBasic/fast:
+	$(MAKE) -f CMakeFiles/cppBasic.dir/build.make CMakeFiles/cppBasic.dir/build
+.PHONY : cppBasic/fast
+
+D000_cpp_primer5e/CH16_template/template_main.o: D000_cpp_primer5e/CH16_template/template_main.cpp.o
+
+.PHONY : D000_cpp_primer5e/CH16_template/template_main.o
+
+# target to build an object file
+D000_cpp_primer5e/CH16_template/template_main.cpp.o:
+	$(MAKE) -f CMakeFiles/cppBasic.dir/build.make CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.o
+.PHONY : D000_cpp_primer5e/CH16_template/template_main.cpp.o
+
+D000_cpp_primer5e/CH16_template/template_main.i: D000_cpp_primer5e/CH16_template/template_main.cpp.i
+
+.PHONY : D000_cpp_primer5e/CH16_template/template_main.i
+
+# target to preprocess a source file
+D000_cpp_primer5e/CH16_template/template_main.cpp.i:
+	$(MAKE) -f CMakeFiles/cppBasic.dir/build.make CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.i
+.PHONY : D000_cpp_primer5e/CH16_template/template_main.cpp.i
+
+D000_cpp_primer5e/CH16_template/template_main.s: D000_cpp_primer5e/CH16_template/template_main.cpp.s
+
+.PHONY : D000_cpp_primer5e/CH16_template/template_main.s
+
+# target to generate assembly for a file
+D000_cpp_primer5e/CH16_template/template_main.cpp.s:
+	$(MAKE) -f CMakeFiles/cppBasic.dir/build.make CMakeFiles/cppBasic.dir/D000_cpp_primer5e/CH16_template/template_main.cpp.s
+.PHONY : D000_cpp_primer5e/CH16_template/template_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... cppBasic"
+	@echo "... D000_cpp_primer5e/CH16_template/template_main.o"
+	@echo "... D000_cpp_primer5e/CH16_template/template_main.i"
+	@echo "... D000_cpp_primer5e/CH16_template/template_main.s"
 .PHONY : help
 
 

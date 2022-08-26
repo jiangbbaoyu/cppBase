@@ -19,6 +19,7 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(cppBasic D14_c++_new_features_/HelloWorld14.cpp)
 
 
+# c++ primer 5th
 
 #add_executable(cppBasic D000_cpp_primer5e/CH01_bookstore/bookstoremain.cpp)
 #add_executable(cppBasic D000_cpp_primer5e/CH02_data_type/datatypemain.cpp)
@@ -32,7 +33,31 @@ set(CMAKE_CXX_STANDARD 11)
 #        D000_cpp_primer5e/CH07_class/screen.cpp
 #
 #        )
-add_executable(cppBasic
-        D000_cpp_primer5e/CH09_ordered_container/ordered_container_main.cpp
+#add_executable(cppBasic D000_cpp_primer5e/CH09_ordered_container/ordered_container_main.cpp)
+#add_executable(cppBasic D000_cpp_primer5e/CH10_algorithms/algorithms_main.cpp)
+#add_executable(cppBasic D000_cpp_primer5e/CH11_map_set/map_set_main.cpp)
+#add_executable(cppBasic
+##        D000_cpp_primer5e/CH12_dynamic_memory/dynamic_memory_main.cpp
+##        D000_cpp_primer5e/CH12_dynamic_memory/str_blob.h
+##        D000_cpp_primer5e/CH12_dynamic_memory/str_blob.cpp
+##        )
 
+#add_executable(cppBasic
+#        D000_cpp_primer5e/CH13_copy_move_destruct/str_vec.h
+#        D000_cpp_primer5e/CH13_copy_move_destruct/str_vec.cpp
+#        D000_cpp_primer5e/CH13_copy_move_destruct/copy_move_destruct_main.cpp
+#
+#        )
+
+#add_executable(cppBasic D000_cpp_primer5e/CH14_operator_type_convert/operator_type_convert_main.cpp)
+#add_executable(cppBasic
+#        D000_cpp_primer5e/CH15_oop/oop_main.cpp
+#        D000_cpp_primer5e/CH15_oop/Quote.h
+#        D000_cpp_primer5e/CH15_oop/Basket.h
+##        D000_cpp_primer5e/CH15_oop/Basket.cc
+#        )
+
+add_executable(cppBasic
+        D000_cpp_primer5e/CH16_template/template_main.cpp
+        D000_cpp_primer5e/CH16_template/blob.h
         )
